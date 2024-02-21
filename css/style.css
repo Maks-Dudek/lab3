@@ -118,9 +118,9 @@ label,input {
     margin-left: 20%;
     height: 100%;
     font-size: 90%;
-	display: block;
-	max-width: 70%;
-}
+    display: block;
+    max-width: 70%;
+  }
 	
   #input-submit input {
     max-width: 30%;
@@ -129,8 +129,8 @@ label,input {
   }
   
   #input-age-verification label {
-	position: relative;
-	left: 20%;
+    position: relative;
+    left: 20%;
   }	
   
   #input-age-verification input[type="checkbox"] {
@@ -139,14 +139,89 @@ label,input {
   
   #input-email label{
     text-align: left;
-	position: relative;
-	top: 1.3em;
-	left: 1em;
+    position: relative;
+    top: 1.3em;
+    left: 1em;
   }
   
   #input-submit input{
     position: relative;
-	left: 4em;
-    
+    left: 4em;
+  }
+  
+@media screen and (min-width: 1024px) {
+  #content{
+    text-align: center;
+    margin: 5% auto 0 auto;
+    width: 60%;	
+  }
+  
+  input {
+    width: 60%;
+    margin-left: 20%;
+    height: 100%;
+    font-size: 80%;
+    display: block;
+    max-width: 70%;
+  }
+	
+  #input-submit input {
+    max-width: 30%;
+    display: block;
+    font-size: 80%;		
+  }
+  
+  #input-age-verification label {
+    position: relative;
+    left: 20%;
+  }	
+  
+  #input-age-verification input[type="checkbox"] {
+    top: 1.4em;
+  }
+  
+  #input-email label{
+    text-align: left;
+    position: relative;
+    top: 1.4em;
+    left: 1.8em;
+  }
+  
+  #input-submit input{
+    position: relative;
+    left: 7.2em;
+  }
+
+p {
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+ 
+  #input-email label{
+    text-align: left;
+      position: relative;
+      top: 1.4em;
+      left: 2.8em;
+  }
+  
+  p {
+    padding-bottom: 5%;
+  }
+
+}
+
+@media screen and (min-width: 1600px) {
+  
+  #input-email label {
+    text-align: left;
+    position: relative;
+    top: 1.4em;
+    left: 4em;
+  }
+  
+  p {
+    padding-bottom: 5%;
   }
 }
