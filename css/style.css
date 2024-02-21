@@ -1,3 +1,94 @@
+body{
+  background-color: #cdcdcd;
+}
+
+
+#content {
+  width: 100%;
+  
+}
+
+h1 {
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  width: 97%;
+  font-size: 2.5em;
+  line-height: 1.2em;
+}
+
 p {
   text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  width: 97%;
+  font-size: 1.2em;
+  line-height: 1.1em;
 }
+
+input {
+  box-sizing: border-box;
+  width: 97%;
+  background-color: white; 
+}
+
+label { 
+  display: block;
+  width: 97%;
+  font-size: 1.2em
+}
+
+label,input {
+  display: block;
+  font-size: 1.2em;
+}
+
+#input-email {
+  text-align: center;	
+  background-color: orange;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 4%;
+}
+
+#input-age-verification {
+  text-align: center;
+  background-color: red;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+
+#input-age-verification input[type="checkbox"] {
+  vertical-align: top;
+  position: relative;
+  display: block;
+  top: 1em;
+  width: 25px;
+  height: 25px;
+}
+
+#input-age-verification label {
+  vertical-align: top;
+  position: relative;
+  display: block;
+  border-radius: 0;
+  padding-left: 2em;
+  padding-bottom: 1.4em;
+  text-align: left;
+ 
+}
+
+#input-submit {
+  text-align: center;
+  background-color: green;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
