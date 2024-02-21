@@ -13,6 +13,7 @@ h1 {
   padding: 1% 1% 1% 1%;
   width: 97%;
   font-size: 2.5em;
+  font-family: calistoga;
   line-height: 1.2em;
 }
 
@@ -24,6 +25,7 @@ p {
   padding-bottom: 10%;
   width: 97%;
   font-size: 1.2em;
+  font-family: calistoga;
   line-height: 1.1em;
 }
 
@@ -31,12 +33,14 @@ input {
   box-sizing: border-box;
   width: 97%;
   background-color: white; 
+  display: block;
 }
 
 label { 
   display: block;
   width: 97%;
-  font-size: 1.2em
+  font-size: 1.2em;
+  font-family: calibri;
 }
 
 label,input {
@@ -46,20 +50,24 @@ label,input {
 
 #input-email {
   text-align: center;	
-  background-color: orange;
-  padding-left: 1%;
+  background-color: #a7a7a7;
+  padding-left: 4%;
   padding-right: 1%;
   padding-top: 1%;
-  padding-bottom: 4%;
+  padding-bottom: 9%;
+}
+
+#input-email label {
+  padding-bottom: 1%;
 }
 
 #input-age-verification {
   text-align: center;
-  background-color: red;
-  padding-left: 1%;
+  background-color: white;
+  padding-left: 4%;
   padding-right: 1%;
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 4%;
   
 }
 
@@ -85,10 +93,60 @@ label,input {
 
 #input-submit {
   text-align: center;
-  background-color: green;
-  padding-left: 1%;
+  background-color: #a7a7a7;
+  padding-left: 4%;
   padding-right: 1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 6%;
+  padding-bottom: 8%;
 }
 
+#input-submit input:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  
+  #content{
+    text-align: center;
+    margin: 5% auto 0 auto;
+    width: 75%;	
+  }
+  
+  input {
+    width: 70%;
+    margin-left: 20%;
+    height: 100%;
+    font-size: 90%;
+	display: block;
+	max-width: 70%;
+}
+	
+  #input-submit input {
+    max-width: 30%;
+    display: block;
+    font-size: 90%;		
+  }
+  
+  #input-age-verification label {
+	position: relative;
+	left: 20%;
+  }	
+  
+  #input-age-verification input[type="checkbox"] {
+    top: 1.3em;
+  }
+  
+  #input-email label{
+    text-align: left;
+	position: relative;
+	top: 1.3em;
+	left: 1em;
+  }
+  
+  #input-submit input{
+    position: relative;
+	left: 4em;
+    
+  }
+}
