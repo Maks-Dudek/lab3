@@ -110,8 +110,7 @@ label,input {
   padding-bottom: 1.4em;
   text-align: left;
   border-width: 0
- 
-}
+ }
 
 #input-submit {
   position: relative;
@@ -180,6 +179,7 @@ label,input {
     left: 4em;
 	border-width: 0
   }
+  
 }
 @media screen and (min-width: 1024px) {
   #content{
@@ -236,7 +236,6 @@ label,input {
 	border-width: 0
   }
   
- 
 }
 
 @media screen and (min-width: 1280px) {
@@ -256,7 +255,7 @@ label,input {
   }
   
   #input-email input {
-    max-width: 65%;
+    width: 70%;
   }
   
   #input-submit input{
@@ -266,13 +265,12 @@ label,input {
 	max-width: 20%;
   }
   
-  
 }
 @media screen and (min-width: 1600px) {
 	
   #input-email, #input-age-verification, #input-submit {
-    max-width: 40%;
-	left: 27%;
+    max-width: 50%;
+	left: 22%;
 }
 	  
   #input-email label {
@@ -285,12 +283,12 @@ label,input {
   }
   
   #input-email input {
-    max-width: 65%;
+    width: 70%;
   }
   
   #input-submit input{
     position: relative;
-    left: 5em;
+    left: 6em;
 	border-width: 0;
 	max-width: 20%;
   }
