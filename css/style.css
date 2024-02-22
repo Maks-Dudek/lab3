@@ -1,10 +1,11 @@
 body{
   background-color: #cdcdcd;
+  border-width: 0
 }
-
 
 #content {
   width: 100%;
+  border-width: 0
   
 }
 
@@ -15,6 +16,7 @@ h1 {
   font-size: 2.5em;
   font-family: calistoga;
   line-height: 1.2em;
+  border-width: 0
 }
 
 p {
@@ -27,6 +29,7 @@ p {
   font-size: 1.2em;
   font-family: calistoga;
   line-height: 1.1em;
+  border-width: 0
 }
 
 input {
@@ -34,6 +37,7 @@ input {
   width: 97%;
   background-color: white; 
   display: block;
+  border-width: 0
 }
 
 label { 
@@ -41,11 +45,13 @@ label {
   width: 97%;
   font-size: 1.2em;
   font-family: calibri;
+  border-width: 0
 }
 
 label,input {
   display: block;
   font-size: 1.2em;
+  border-width: 0
 }
 
 #input-email {
@@ -55,10 +61,12 @@ label,input {
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 9%;
+  border-width: 0
 }
 
 #input-email label {
   padding-bottom: 1%;
+  border-width: 0
 }
 
 #input-age-verification {
@@ -68,7 +76,7 @@ label,input {
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 4%;
-  
+  border-width: 0
 }
 
 #input-age-verification input[type="checkbox"] {
@@ -78,6 +86,7 @@ label,input {
   top: 1em;
   width: 25px;
   height: 25px;
+  border-width: 0
 }
 
 #input-age-verification label {
@@ -88,6 +97,7 @@ label,input {
   padding-left: 2em;
   padding-bottom: 1.4em;
   text-align: left;
+  border-width: 0
  
 }
 
@@ -98,11 +108,13 @@ label,input {
   padding-right: 1%;
   padding-top: 6%;
   padding-bottom: 8%;
+  border-width: 0
 }
 
 #input-submit input:hover {
   cursor: pointer;
   background-color: grey;
+  border-width: 0
 }
 
 @media screen and (min-width: 768px) {
@@ -111,6 +123,7 @@ label,input {
     text-align: center;
     margin: 5% auto 0 auto;
     width: 75%;	
+	border-width: 0
   }
   
   input {
@@ -120,21 +133,25 @@ label,input {
     font-size: 90%;
     display: block;
     max-width: 70%;
+	border-width: 0
   }
 	
   #input-submit input {
     max-width: 30%;
     display: block;
-    font-size: 90%;		
+    font-size: 90%;
+	border-width: 0
   }
   
   #input-age-verification label {
     position: relative;
     left: 20%;
+	border-width: 0
   }	
   
   #input-age-verification input[type="checkbox"] {
-    top: 1.3em;
+    top: 1.4em;
+	border-width: 0
   }
   
   #input-email label{
@@ -142,11 +159,13 @@ label,input {
     position: relative;
     top: 1.3em;
     left: 1em;
+	border-width: 0
   }
   
   #input-submit input{
     position: relative;
     left: 4em;
+	border-width: 0
   }
   
 @media screen and (min-width: 1024px) {
@@ -154,6 +173,7 @@ label,input {
     text-align: center;
     margin: 5% auto 0 auto;
     width: 60%;	
+	border-width: 0
   }
   
   input {
@@ -163,37 +183,44 @@ label,input {
     font-size: 80%;
     display: block;
     max-width: 70%;
+	border-width: 0
   }
 	
   #input-submit input {
     max-width: 30%;
     display: block;
     font-size: 80%;		
+	border-width: 0
   }
   
   #input-age-verification label {
     position: relative;
     left: 20%;
+	border-width: 0
   }	
   
   #input-age-verification input[type="checkbox"] {
     top: 1.4em;
+	border-width: 0
   }
   
   #input-email label{
     text-align: left;
     position: relative;
-    top: 1.4em;
+    top: 1.2em;
     left: 1.8em;
+	border-width: 0
   }
   
   #input-submit input{
     position: relative;
     left: 7.2em;
+	border-width: 0
   }
 
-p {
+  p {
     padding-bottom: 5%;
+	border-width: 0
   }
 }
 
@@ -201,13 +228,15 @@ p {
  
   #input-email label{
     text-align: left;
-      position: relative;
-      top: 1.4em;
-      left: 2.8em;
+    position: relative;
+    top: 1.2em;
+    left: 2.8em;
+	border-width: 0
   }
   
   p {
     padding-bottom: 5%;
+	border-width: 0
   }
 
 }
@@ -219,10 +248,12 @@ p {
     position: relative;
     top: 1.4em;
     left: 4em;
+	border-width: 0
   }
   
   p {
     padding-bottom: 5%;
+	border-width: 0
   }
 }
 }
