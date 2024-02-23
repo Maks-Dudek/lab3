@@ -145,25 +145,25 @@ label,input {
     font-size: 90%;
     display: block;
     max-width: 70%;
-	border-width: 0
+    border-width: 0
   }
 	
   #input-submit input {
     max-width: 30%;
     display: block;
     font-size: 90%;
-	border-width: 0
+    border-width: 0
   }
   
   #input-age-verification label {
     position: relative;
     left: 20%;
-	border-width: 0
+    border-width: 0
   }	
   
   #input-age-verification input[type="checkbox"] {
     top: 1.4em;
-	border-width: 0
+    border-width: 0
   }
   
   #input-email label{
@@ -171,13 +171,13 @@ label,input {
     position: relative;
     top: 1.3em;
     left: 1em;
-	border-width: 0
+    border-width: 0
   }
   
   #input-submit input{
     position: relative;
     left: 4em;
-	border-width: 0
+    border-width: 0
   }
   
 }
@@ -186,7 +186,7 @@ label,input {
     text-align: center;
     margin: 5% auto 0 auto;
     width: 60%;	
-	border-width: 0
+    border-width: 0
   }
   
   input {
@@ -196,25 +196,25 @@ label,input {
     font-size: 80%;
     display: block;
     max-width: 70%;
-	border-width: 0
+    border-width: 0
   }
 	
   #input-submit input {
     max-width: 30%;
     display: block;
     font-size: 80%;		
-	border-width: 0
+    border-width: 0
   }
   
   #input-age-verification label {
     position: relative;
     left: 20%;
-	border-width: 0
+    border-width: 0
   }	
   
   #input-age-verification input[type="checkbox"] {
     top: 1.4em;
-	border-width: 0
+    border-width: 0
   }
   
   #input-email label{
@@ -222,18 +222,18 @@ label,input {
     position: relative;
     top: 1.2em;
     left: 1.7em;
-	border-width: 0
+    border-width: 0
   }
   
   #input-submit input{
     position: relative;
     left: 5em;
-	border-width: 0
+    border-width: 0
   }
 
   p {
     padding-bottom: 5%;
-	border-width: 0
+    border-width: 0
   }
   
 }
@@ -242,16 +242,16 @@ label,input {
  
   #input-email, #input-age-verification, #input-submit {
     max-width: 60%;
-	left: 18%;
+    left: 18%;
   }
 	  
   #input-email label {
     text-align: left;
     position: relative;
     left: .5em;
-	bottom: .4em;
-	border-width: 0;
-	max-width: 15%;
+    bottom: .4em;
+    border-width: 0;
+    max-width: 15%;
   }
   
   #input-email input {
@@ -261,8 +261,8 @@ label,input {
   #input-submit input{
     position: relative;
     left: 5em;
-	border-width: 0;
-	max-width: 20%;
+    border-width: 0;
+    max-width: 20%;
   }
   
 }
@@ -270,16 +270,16 @@ label,input {
 	
   #input-email, #input-age-verification, #input-submit {
     max-width: 50%;
-	left: 22%;
+    left: 22%;
 }
 	  
   #input-email label {
     text-align: left;
     position: relative;
     left: .2em;
-	bottom: .4em;
-	border-width: 0;
-	max-width: 15%;
+    bottom: .4em;
+    border-width: 0;
+    max-width: 15%;
   }
   
   #input-email input {
@@ -289,8 +289,8 @@ label,input {
   #input-submit input{
     position: relative;
     left: 6em;
-	border-width: 0;
-	max-width: 20%;
+    border-width: 0;
+    max-width: 20%;
   }
   
   p {
