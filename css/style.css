@@ -53,7 +53,7 @@ label {
 }
 
 label,input {
-	position: relative;
+  position: relative;
   display: block;
   font-size: 1.2em;
   border-width: 0
@@ -83,7 +83,7 @@ label,input {
 #input-age-verification {
   position: relative;
   text-align: center;
-  background-color: white;
+  background-color: #dddddd;
   padding-left: 4%;
   padding-right: 1%;
   padding-top: 1%;
